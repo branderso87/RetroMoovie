@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     </style>
@@ -9,46 +10,49 @@
   </head>
   <body>
     <header>
-      <div class="logo"></div>
-      <div class="top-nav">
+      <div class="logo">
+        <img src="images/filmclub.png" alt="Film Flub Logo" id="clapboard">
+      </div>
+      <div class="topnav">
         <nav>
-          <div class="home" id="top-home">
-            <h1>Home</h1>
+          <div class="home" id="tophome">
+            <a href="index.html">Home</a>
           </div>
-          <div class="calendar" id="top-cal">
-            <h1>Calendar</h1>
+          <div class="calendar" id="topcal">
+            <a href="calendar/index.html">Calendar</a>
           </div>
-          <div class="join" id="top-join">
-            <h1>Join</h1>
+          <div class="join" id="topjoin">
+            <a href="join/index.html">Join</a>
           </div>
         </nav>
       </div>
     </header>
     <main>
-      <div class="top-wrapper">
+      <div class="topwrapper">
         <h1 id="involved">Get Involved</h1>
-        <div class="top-sub" id="watch">
+        <div class="topsub" id="watch">
           <h2>Watch</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div class="top-sub" id="take-notes">
+        <div class="topsub" id="takenotes">
           <h2>Take Notes</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div class="top-sub" id="meetup">
+        <div class="topsub" id="meetup">
           <h2>Meetup</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
-      <div class="bottom-wrapper">
-        <div class="bttm-sub">
-          <div class="" id="rashomon">
+      <div class="bttmwrapper">
+        <div class="bttmsub">
+          <h1 id="upnext">Up Next</h1>
+          <div class="moviecard" id="rashomon">
             <div class="poster" id="rash-poster">
-              <img src="" alt="">
+              <img src="images/rashomon-poster.jpg" alt="Rashomon Poster">
             </div>
-            <div class="film-info" id="rash-info">
+            <div class="filminfo" id="rash-info">
               <h3>Rashomon</h3>
-              <p>Film Club: <em>6/13</em></p>
+              <p class="filmclub">Film Club: <strong>6/13</strong></p>
               <hr>
               <h4>Discussion Points</h4>
               <ul id="points-list">
@@ -60,44 +64,44 @@
               </ul>
             </div>
           </div>
-          <div class="" id="moviegrid">
+          <div class="moviecard" id="moviegrid">
             <div class="moviecell">
-              <img src="" alt="" id="train">
-              <h5>The Great Train Robbery</h5>
-              <p>Film Club: <em>6/27</em></p>
+              <img src="images/great-train-poster.jpg" alt="The Great Train Robbery Movie Poster" >
+              <h3>The Great Train Robbery</h3>
+              <p class="filmclub">Film Club: <strong>6/27</strong></p>
             </div>
             <div class="moviecell">
-              <img src="" alt="" id="bicycle">
-              <h5>The Bicycle Thief</h5>
-              <p>Film Club: <em>7/11</em></p>
+              <img src="images/bicycle-thief-poster.jpg" alt="The Bicycle Thief Movie Poster" id="bicycle">
+              <h3>The Bicycle Thief</h3>
+              <p class="filmclub">Film Club: <strong>7/11</strong></p>
             </div>
-            <div class="moviecell">
-              <img src="" alt="" id="nos">
-              <h5>Nosferatu</h5>
-              <p>Film Club: <em>7/25</em></p>
+            <div class="moviecell" id="nos">
+              <img src="images/nosferatu-poster.jpg" alt="Nosferatu Movie Poster" >
+              <h3>Nosferatu</h3>
+              <p class="filmclub">Film Club: <strong>7/25</strong></p>
             </div>
-            <div class="moviecell">
-              <img src="" alt="" id="metro">
-              <h5>Metropolis</h5>
-              <p>Film Club: <em>8/08</em></p>
+            <div class="moviecell" id="metro">
+              <img src="images/metropolis-poster.jpg" alt="Metropolis Movie Poster" >
+              <h3>Metropolis</h3>
+              <p class="filmclub">Film Club: <strong>8/08</strong></p>
             </div>
           </div>
         </div>
       </div>
     </main>
     <footer>
-      <div class="bottom-nav">
-        <div class="home" id="bttm-home">
-          <h1>Home</h1>
+      <nav class="footnav">
+        <div class="home" id="foothome">
+          <a href="index.html">Home</a>
         </div>
-        <div class="calendar" id="bttm-cal">
-          <h1>Calendar</h1>
+        <div class="calendar" id="footcal">
+          <a href="calendar/index.html">Calendar</a>
         </div>
-        <div class="join" id="bttm-join">
-          <h1>Join</h1>
+        <div class="join" id="footjoin">
+          <a href="join/index.html">Join</a>
         </div>
         <h6>© 2017, Film Club</h6>
-      </div>
+      </nav>
     </footer>
   </body>
 </html>

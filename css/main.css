@@ -3,17 +3,17 @@ inline link: #00B7D3
 h2 background: #0B1942
 h2 color: #FFFFFF
 logo background: #F5005B
-navigation background: #7DDFE8
-navigation link color: #FFFFFF
-"Home" nav link background: #00A5BF
-"Calendar" nav link background: #00B7D3
-"Join" nav link background: #00D5E7
+*navigation background: #7DDFE8
+*navigation link color: #FFFFFF
+*"Home" nav link background: #00A5BF
+*"Calendar" nav link background: #00B7D3
+*"Join" nav link background: #00D5E7
 "Up Next" background: #0B1942
 "Up Next" card background #E2E2E2
 calendar background and treatments: #0B1942
 calendar highlighted day: #F5005B
 button background: #F5005B
-copyright text: #FFFFFF*/
+*copyright text: #FFFFFF*/
 
 *, *:before, *:after{
   box-sizing: border-box;
@@ -29,12 +29,136 @@ copyright text: #FFFFFF*/
 }
 body{
   margin: 0 auto;
+  width: 100%;
+  font-family: "PT Sans";
 }
 img{
   max-width: 100%;
 }
+header{
+  display: flex;
+  flex-flow: row nowrap;
+}
 
-/*small	0 (320px)	544px*/
+.logo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #F5005B;
+  flex-basis: 23%;
+  padding: 2%;
+}
+nav{
+  background: #7DDFE8;
+  text-align: center;
+}
+a {
+  font-size: 3.5vw;
+  text-decoration: none;
+  color: white;
+}
+.topnav{
+  flex: 1;
+}
+.home, .calendar, .join{
+    padding: 2.8% 0;
+}
+.home{
+  background:#00A5BF;
+}
+.calendar{
+  background:#00B7D3;
+}
+.join{
+  background: #00D5E7;
+}
+
+.topwrapper{
+    padding: 2% 5% 5% 5%;
+}
+h1{
+  margin: 5% 0;
+  font-size: 6vw;
+  font-weight: 100;
+}
+h2{
+  background: #0B1942;
+  color: #FFFFFF;
+  padding: 1% 0 1% 2%;
+  font-size: 5vw;
+  font-weight: 300;
+}
+.topsub p{
+  padding: 5% 0;
+  line-height: 1.5;
+}
+.bttmwrapper{
+  background: #0B1942;
+  padding:5%;
+}
+
+.bttmsub h1{
+  font-size: 8vw;
+  font-weight: 300;
+  color: white;
+}
+
+.moviecard{
+  background: #E2E2E2;
+  margin: 5% 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 4%;
+}
+.poster{
+  display: flex;
+  align-items: flex-start;
+  flex-basis: 45%;
+  margin: 5% 0 0 5%;
+}
+.filminfo{
+  margin: 5%;
+  flex-basis: 40%;
+}
+hr{
+  border: solid 1px #0B1942;
+  margin: 10% 0;
+}
+li{
+  margin: 10% 0 0 10%;
+  list-style: circle;
+}
+h3{
+  color: #00B7D3;
+  font-size: 3.5vw;
+  text-decoration: underline;
+}
+.filminfo h3{
+  font-size: 3vh;
+}
+h4{
+  color:#0B1942;
+  font-size: 2.2vh;
+}
+
+.moviecell{
+    flex-basis: 42%;
+    margin: 5% 1% 1.5% 5%;
+}
+
+.filmclub{
+  font-size: 2.2vh;
+  padding: 2% 0 0 0;
+}
+h6{
+  padding: 6% 0;
+  color: white;
+  font-size: 3.5vw;
+}
+
+
+
+
 
 @media (min-width:546px){
 
