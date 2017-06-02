@@ -28,8 +28,19 @@ copyright text: #FFFFFF*/
   background: transparent;
 }
 body{
-  margin: 0;
+  margin: 0 auto;
 }
 img{
   max-width: 100%;
+}
+
+/*small	0 (320px)	544px*/
+
+@media (min-width:546px){
+
+
+}
+@media (min-width: 769px){
+
+
 }
