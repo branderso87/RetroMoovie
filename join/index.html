@@ -31,33 +31,78 @@
       <div class="topwrapper">
         <h1 id="joinfilmclub">Join Film Club</h1>
         <form class="signup" action="index.html" method="post">
-          <label for="profilepic">profile picture</label>
-          <input type="file" name="profilepic" value="profile picture">
-          <img src="../images/profile-placeholder.png" alt="Profile Placeholder">
-          <label for="name">name</label>
-          <input type="text" name="name">
-          <label for="email">email address</label>
-          <input type="email" name="email">
-          <label for="password">password</label>
-          <input type="password" name="password">
-          <label for="password">confirm password</label>
-          <input type="password" name="password">
-          <label class="chxbx">
+          <div class="profilepicture">
+            <label for="profilepic">profile picture</label>
+            <input type="file" name="profilepic" value="profile picture">
+            <img src="../images/profile-placeholder.png" alt="Profile Placeholder">
+          </div>
+          <div class="profileinfo">
+            <div class="name-email">
+              <label for="name">name</label>
+              <input type="text" name="name">
+              <label for="email">email address</label>
+              <input type="email" name="email">
+            </div>
+            <div class="psswrds">
+              <label for="password">password</label>
+              <input type="password" name="password">
+              <label for="password">confirm password</label>
+              <input type="password" name="password">
+            </div>
+          </div>
+          <div class="checkbox-wrapper">
             <p>Which genres are you interested in?</p>
-            <input type="checkbox" name="genres" value="action">action
-            <input type="checkbox" name="genres" value="adventure">adventure
-            <input type="checkbox" name="genres" value="comedy">comedy
-            <input type="checkbox" name="genres" value="drama">drama
-            <input type="checkbox" name="genres" value="fantasy">fantasy
-            <input type="checkbox" name="genres" value="historical">historical
-            <input type="checkbox" name="genres" value="horror">horror
-            <input type="checkbox" name="genres" value="mystery">mystery
-            <input type="checkbox" name="genres" value="romance">romance
-            <input type="checkbox" name="genres" value="science">science fiction
-            <input type="checkbox" name="genres" value="western">western
-          </label>
-          <label for="addinput">Additional input</label>
-          <textarea name="addinput" rows="8" cols="80"></textarea>
+            <div class="genreboxes">
+              <div class="checkbox">
+                <input type="checkbox" name="genres" value="action">
+                <label for="action">action</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="genres" value="adventure">
+                <label for="adventure">adventure</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="genres" value="comedy">
+                <label for="comedy">comedy</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="genres" value="drama">
+                <label for="drama">drama</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="genres" value="fantasy">
+                <label for="fantasy">fantasy</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="genres" value="historical">
+                <label for ="historical">historical</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="genres" value="horror">
+                <label for="horror">horror</label>
+              </div>
+              <div class ="checkbox">
+                <input type="checkbox" name="genres" value="mystery">
+                <label for="mystery">mystery</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="genres" value="romance">
+                <label for="romance">romance</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="genres" value="science">
+                <label for="science fiction">science fiction</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="genres" value="western">
+                <label for="western">western</label>
+              </div>
+            </div>
+          </div>
+          <div class="addinput">
+            <label for="addinput">Additional input</label>
+            <textarea name="addinput" rows="8" cols="80"></textarea>
+          </div>
           <input type="submit" name="submit" value="Join Film Club">
         </form>
       </div>
